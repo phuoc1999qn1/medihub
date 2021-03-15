@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+@import 'bootstrap';
+@import 'fontawesome';
+@import 'slick.scss';
+@import 'slick-theme.scss';
+
+@import './setting';
+
+@import './components/header';
+@import './components/body';
+@import './components/footer';
+

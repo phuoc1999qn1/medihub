@@ -1,0 +1,19 @@
+body {
+   font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+#hr {
+   margin: 0;
+}
+
+label.error {
+   color: red;
+   margin: 2px;
+}
+input.error {
+   border: 1px solid red;
+}

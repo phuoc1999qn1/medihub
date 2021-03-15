@@ -1,0 +1,121 @@
+.footer {
+    .footer-background {
+        background-image: url(../img/footer_bg.png);
+        background-size: cover;
+
+        .footer-body {
+            padding-top: 7rem;
+
+            img {
+                width: 80%;
+                padding-bottom: 2rem;
+
+                @media (max-width: 768px) {
+                    width: 60%;
+                }
+            }
+
+            .footer-medicare {
+                p {
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: white;
+                }
+            }
+
+            .footer-link {
+                img {
+                    max-height: 62px;
+                }
+
+                hr {
+                    margin: 2px;
+                    border-color: #498bcb;
+                }
+
+                ul {
+                    padding-left: 10px;
+
+                    li {
+                        span {
+                            padding-right: 3px;
+                        }
+
+                        font-size: 15px;
+                        font-weight: 300;
+                        color: white;
+                        list-style: none;
+
+                        &:hover {
+                            span {
+                                color: #fc6870;
+                            }
+
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+
+            .footer-comment {
+                padding: 1rem;
+                background-color: white;
+                box-shadow: 3px 3px 16px #000;
+
+                p:nth-child(2) {
+                    font-size: 200;
+                    margin-bottom: 2px;
+                    font-size: 14px;
+                    color: grey;
+                }
+
+                p:nth-child(4) {
+                    font-weight: 400;
+                    color: grey;
+                }
+
+                hr {
+                    width: 15%;
+                    border-color: red;
+                    margin: 2px 0;
+                }
+
+                .comment-end {
+                    display: flex;
+
+                    .comment-end-left {
+                        width: 70%;
+
+                        span {
+                            font-weight: 400;
+                            color: grey;
+                        }
+                    }
+
+                    .comment-end-right {
+                        width: 30%;
+                        display: flex;
+                        justify-content: flex-end;
+
+                        i {
+                            font-size: 40px;
+                            transform: scaleX(-1);
+                            transform: translateY(-10px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright-background {
+        padding: 4px;
+        background-color: #0163a3;
+
+        @media (max-width: 414px) {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
